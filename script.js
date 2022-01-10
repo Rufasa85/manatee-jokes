@@ -8,7 +8,7 @@ var setup = "";
 
 function handleGetJoke() {
     punchText.setAttribute('class', 'hidden')
-    fetch('http://manateejokesapi.herokuapp.com/manatees/random')
+    fetch('https://manateejokesapi.herokuapp.com/manatees/random')
         .then(function(res) {
             return res.json();
         })
