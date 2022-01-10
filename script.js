@@ -13,6 +13,7 @@ function handleGetJoke() {
             return res.json();
         })
         .then(function(response) {
+            console.log(response);
             setup = response.setup;
             punchLine = response.punchline;
             punchText.textContent = punchLine
