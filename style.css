@@ -1,42 +1,50 @@
-*{
-    padding:0;
-    margin:0;
-    font-family:"Helvetica";
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Helvetica';
 }
 
 header {
-    min-height:10vh;
-    background:salmon;
+	min-height: 10vh;
+	background: salmon;
 }
 
 main {
-    height:70vh;
-    width:70vw;
-    margin:0 auto;
-    border:1px solid black;
-    box-shadow: 5px 5px 5px 5px black;
-    margin-top:5vh;
-    margin-bottom:5vh;
-    text-align:center;
-    font-size:3em;
-    position: relative;
+	height: 70vh;
+	width: 70vw;
+	margin: 0 auto;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px 5px black;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	text-align: center;
+	font-size: 3em;
+	position: relative;
 }
 
 main > button {
-    width:100%;
-    font-size:1em;
-    position: absolute;
-    bottom:0;
-    left:0
+	width: 100%;
+	font-size: 1em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 button {
-    background:salmon;
+	background: salmon;
 }
 
 #get-joke {
-    width: 70vw;
-    display: block;
-    margin: 0 auto;
-    font-size:3em;
+	width: 70vw;
+	display: block;
+	margin: 0 auto;
+	font-size: 3em;
+}
+
+.hidden {
+	display: none;
+}
+
+.show {
+	display: block;
 }
